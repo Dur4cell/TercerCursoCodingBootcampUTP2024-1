@@ -1,0 +1,49 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgba(133, 122, 145, 0.62);
+    color: whitesmoke;
+    font-size: 90%;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.logo {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+.gracias-flexbox { 
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    max-height: 200px;
+    max-width: 1000px;
+}
+
+.third {
+    display: flex;
+    justify-content: end;
+    height: 50px;
+}
+
+.four {
+    display: flex;
+    justify-content: end ;
+    height: 50px;
+
+}
+
+
+
+
+
