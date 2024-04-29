@@ -9,6 +9,8 @@ body {
 }
 
 nav {
+    position: fixed;
+    z-index: 1000;
     background-color: chartreuse;
     color: white;
     width: 100%;
@@ -38,7 +40,7 @@ nav .desktop{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    pad: 0 20px;
+    padding: 0 20px;
 }
 
 nav .desktop .login {
@@ -78,7 +80,20 @@ nav .desktop .barrita {
     display: block;
     }
 
-} 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: end;
+    padding: 10px;
+}
+
+
 
 
 

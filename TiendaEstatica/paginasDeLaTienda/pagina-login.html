@@ -3,19 +3,36 @@
 <head>
     
     <title>Inicar sesión</title>
+    <link rel="stylesheet" href="pagina-de-login.css">
 </head>
-<body> 
-    <section>
-    <h5>Formulario para login </h5>
-    <form>
-        <input type="text" name="Correo eléctronico" required minlength="@" value="" placeholder="por ejemplo lacarcel@gmail.com">
-        <input type="password" name="contraseña" required minlength="8" value="" placeholder="la clave con la que creaste tu cuenta"> 
-        <input type="submit" name="enviar" value="Comprobar Información">
-        <a href="pagina-login.html" target="_blank"><h6>¿Olvidaste tu contraseña?, haz click aqui</h6></a>
-    </form>
-    <h6>¿No tienes una cuenta?</h6>
-    <a href="pagina-de-sig-up.html" target="_blank">Registrate</a>
-    </section>
+<body>
+    <div class="formulario">
+        <h1>Inicio de Sesion</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Nombre de Usuario</label>
+            </div>
+            <div class="username">
+                <input type="password" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar"><a href="pagina-login.html"</a>¿Olvidaste tu Contraseña? haz click aqui</div>
+            <input type="submit" value="Iniciar">
+            <div class="registrarse">
+                No tienes cuenta? <a href="pagina-de-sig-up.html">registrate!</a>
+            </div>
+        </form>
+    
+    </div>
+ <footer>
+    Hecho por: 
+    ing Angel Henao
+    ing Oscar Salazar
+    ing Robert Carvajal
+
+ </footer>
+
 
 </body>
 </html>
