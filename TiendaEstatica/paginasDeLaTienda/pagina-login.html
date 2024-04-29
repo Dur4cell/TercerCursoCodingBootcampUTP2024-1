@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario Login</title>
+    
+    <title>Inicar sesión</title>
 </head>
-<body>
+<body> 
     <section>
-        <h5>Formulario para login </h5>
-        <input type="text" name="usuario" value="" placeholder="usuario">
-        <input type="text" name="contrasena" value="contrasena">  
-        <input type="text" name="usuario" value="usuario">
-    
-    
-    
-    
+    <h5>Formulario para login </h5>
+    <form>
+        <input type="text" name="Correo eléctronico" required minlength="@" value="" placeholder="por ejemplo lacarcel@gmail.com">
+        <input type="password" name="contraseña" required minlength="8" value="" placeholder="la clave con la que creaste tu cuenta"> 
+        <input type="submit" name="enviar" value="Comprobar Información">
+        <a href="pagina-login.html" target="_blank"><h6>¿Olvidaste tu contraseña?, haz click aqui</h6></a>
+    </form>
+    <h6>¿No tienes una cuenta?</h6>
+    <a href="pagina-de-sig-up.html" target="_blank">Registrate</a>
     </section>
 
 </body>
